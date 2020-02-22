@@ -125,7 +125,6 @@ dmypy.json
 tensorflow_code
 
 # Models
-models
 
 
 .idea/
