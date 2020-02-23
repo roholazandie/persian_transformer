@@ -4,7 +4,7 @@ from tokenizers import ByteLevelBPETokenizer
 
 
 clean_wiki_text = "/home/rohola/codes/persian_transformer/clean_wiki_text_txt"
-paths = [str(x) for x in Path(clean_wiki_text).glob("**/*.txt")]
+paths = [str(x) for x in Path(clean_wiki_text).glob("**/*")]
 
 # Initialize a tokenizer
 tokenizer = ByteLevelBPETokenizer()

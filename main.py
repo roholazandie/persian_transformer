@@ -13,5 +13,6 @@ tokenizer._tokenizer.post_processor = BertProcessing(
 )
 tokenizer.enable_truncation(max_length=512)
 
-print(tokenizer.encode("این یک تست است."))
+tokens = tokenizer.encode("این یک تست است.")
+#print(tokenizer.encode("این یک تست است."))
 #print(tokenizer.encode("this is a test"))
