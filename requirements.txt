@@ -2,3 +2,5 @@ tokenizers==0.5.0
 transformers==2.5.0
 tqdm
 tensorboardX
+torch
+scipy
